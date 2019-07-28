@@ -29,4 +29,9 @@ class HomeController extends Controller
     public function test() {
         return view('hello');
     }
+
+    public function store() {
+        return 'ok';
+//        return view('hello');
+    }
 }
